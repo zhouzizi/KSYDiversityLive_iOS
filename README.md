@@ -15,7 +15,7 @@
 同时也欢迎从事音视频处理的企业、个人共同参与，一起构建更繁荣的移动直播市场。
 
 ## 场景
-[KSYDiversityLive](https://github.com/ksvc/KSYDiversityLive_iOS)
+[KSYDiversityLive](https://github.com/ksvc/KSYDiversityLive_iOS)会覆盖越来越多的场景，不仅限于以下。也欢迎大家踊跃提新的适配场景：
 * 混响
 * 声音增强
 * 美颜处理
@@ -25,7 +25,7 @@
 * 第三方视频输入
 
 ## 功能
-[KSYDiversityLive](https://github.com/ksvc/KSYDiversityLive_iOS)将提供以下功能：
+[KSYDiversityLive](https://github.com/ksvc/KSYDiversityLive_iOS)将提供以下功能。同时也欢迎大家提新的功能需求。
 * 游戏录屏直播
 * 应用内录屏
 * 短视频录制
@@ -38,3 +38,9 @@
 ## 大事记
 
 1. 2016.9.26，[连麦v1.5.0稳定版本](https://github.com/ksvc/KSYRTCLive_iOS)开放测试
+
+## 反馈与建议
+- 主页：[金山云](http://v.ksyun.com)
+- QQ讨论群：574179720
+- Issues: <https://github.com/ksvc/KSYDiversityLive_iOS/issues>
+
