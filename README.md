@@ -35,13 +35,21 @@
 * 画中画
 * 连麦
 
+## 开发合作
+任何企业、个人都可以参与，提供的SDK付费、免费都可以。不限于以下的合作场景：
+
+1. 企业商用SDK，金山云提供品牌露出和鉴权、付费接口露出；  
+1. 个人完成的SDK；  
+1. 基于[ksygpulive](https://github.com/ksvc/KSYLive_iOS)的任意工具、SDK、plugin；  
+
 ## 大事记
 
 1. 2016.9.26，[连麦v1.5.0稳定版本](https://github.com/ksvc/KSYRTCLive_iOS)开放测试
 
+
 ## 反馈与建议
 - 主页：[金山云](http://v.ksyun.com)
 - 邮箱：<zengfanping@kingsoft.com>
-- QQ讨论群：574179720
+- QQ讨论群：574179720 [视频云技术交流群] 
 - Issues: <https://github.com/ksvc/KSYDiversityLive_iOS/issues>
 
