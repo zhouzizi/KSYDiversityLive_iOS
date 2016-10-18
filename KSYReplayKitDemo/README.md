@@ -73,12 +73,19 @@ Upload扩展的入口类SampleHandler提供了一组回调函数, 用于处理�
 而需要另外提供一个单例的推流类, 在demo中为KSYRKStreamerKit.
 
 ## 集成工作
+1. 在KSYRKUploadExtUI中开发配置界面, 将直播需要的一些配置信息从界面配置到setupInfo的字典中, 传到KSYRKUploadExt.
 
-1. 添加单例推流类 KSYRKStreamerKit
+2. 在KSYRKUploadExt里添加单例推流类 KSYRKStreamerKit
 KSYRKStreamerKit 中主要是保存 KSYStreamerBase 和 KSYAudioMixer的实例, 
-并以单例的方式在扩展的运行过程中提供对KSYStreamerBase的访问.
+并以单例的方式在扩展的运行过程中提供对 KSYStreamerBase 的访问.
 
-2. 在SampleHandler类的各个回调接口中通过KSYRKStreamerKit 进行推流
+3. KSYRKStreamerKit的构造函数中添加推流参数的配置, 比如音视频的编码器配置, 码率配置等.
 
+4. KSYRKStreamerKit 中添加对推流事件的监听回调, 当收到推流底层的错误消息时, 进行重连.
+
+5. 在 SampleHandler 类的各个回调接口中通过KSYRKStreamerKit 进行推流
 * broadcastStartedWithSetupInfo 接口启动推流, 从setupInfo 得到推流的配置信息,比如rtmp的url.
-* processSampleBuffer 接口将收到的图像和音频的sampleBuffer 送入 KSYRKStreamerKit
+* processSampleBuffer 接口将收到的图像和音频的sampleBuffer 送入 KSYRKStreamerKit.
+
+6. 目前 暂时只支持 mic 通路的音频
+
