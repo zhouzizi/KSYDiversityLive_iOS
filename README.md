@@ -26,7 +26,7 @@
 
 ## 功能
 [KSYDiversityLive](https://github.com/ksvc/KSYDiversityLive_iOS)将提供以下功能。同时也欢迎大家提新的功能需求。
-* 游戏录屏直播
+* [游戏录屏直播](https://github.com/ksvc/KSYDiversityLive_iOS/tree/master/KSYReplayKitDemo)
 * 应用内录屏
 * 短视频录制
 * 动态贴纸
@@ -44,8 +44,8 @@
 
 ## 大事记
 
-1. 2016.9.26，[连麦v1.5.0稳定版本](https://github.com/ksvc/KSYRTCLive_iOS)开放测试
-
+1. 2016.09.26，[连麦v1.5.0稳定版本](https://github.com/ksvc/KSYRTCLive_iOS)开放测试
+2. 2016.10.20，基于Replaykit(iOS10+)的游戏录屏体验版demo代码开放 
 
 ## 反馈与建议
 - 主页：[金山云](http://v.ksyun.com)
