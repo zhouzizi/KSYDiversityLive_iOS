@@ -116,6 +116,18 @@ _kit = [[KSYGPUStreamerKit alloc] initWithDefaultCfg];
 4.管理贴纸、滤镜资源
 5.资源打包下载，更新配置
 
+代码中需要注意的地方：
+
+资源下载：
+![TuSDK appControl.png](images/TuSDK appControl.png)
+
+TuSDK初始化：
+![TuSDK initialized.png](images/TuSDK initialized.png)
+
+添加资源到项目中：
+
+![TuSDK source.png](images/TuSDK source.png)
+
 详情请咨询：https://tusdk.com
 
 金山SDK资源获取：
