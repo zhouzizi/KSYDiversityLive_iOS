@@ -19,11 +19,11 @@ IOS 贴纸功能 （KSYLive_IOS + faceunity）
     
   目前金山SDK流程结构图：
     
-  ![Diagram](https://github.com/ksvc/KSYLive_iOS/wiki/images/diagram.png)
+  ![Diagram](images/diagram.png)
   
   那我们要做的事情是啥呢，请看下图：
   
-  ![Diagram](https://github.com/ksvc/KSYLive_iOS/wiki/images/faceUnity2.png)
+  ![Diagram](images/faceUnity2.png)
 
 ## 注意事项
 1. 集成金山云SDK：
