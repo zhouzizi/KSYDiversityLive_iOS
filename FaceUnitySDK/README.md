@@ -95,11 +95,11 @@ IOS 贴纸功能 （KSYLive_IOS + faceunity）
 | | |
 | :---: | :---:|
 |fox| cat |
-|![fox](https://github.com/ksvc/KSYLive_iOS/wiki/images/fox.png)| ![cat](https://github.com/ksvc/KSYLive_iOS/wiki/images/cat.PNG)|
+|![fox](images/fox.png)| ![cat](images/cat.PNG)|
 |mood| rabbit |
-|![fox](https://github.com/ksvc/KSYLive_iOS/wiki/images/mood.PNG)| ![cat](https://github.com/ksvc/KSYLive_iOS/wiki/images/rabbit.PNG)|
+|![fox](images/mood.PNG)| ![cat](images/rabbit.PNG)|
 |evil| kitty |
-|![fox](https://github.com/ksvc/KSYLive_iOS/wiki/images/evil.PNG )| ![cat](https://github.com/ksvc/KSYLive_iOS/wiki/images/kitty.png )|
+|![fox](images/evil.PNG )| ![cat](images/kitty.png )|
 
     
 
