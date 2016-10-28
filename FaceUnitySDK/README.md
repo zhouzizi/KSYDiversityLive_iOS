@@ -104,5 +104,7 @@ IOS 贴纸功能 （KSYLive_IOS + faceunity）
 
 ## 商务合作
 demo中的贴纸功能，若没有没有满足您的需求那么请联系：
-faceunity:http://www.faceunity.com/#page3
+
+faceunity:http://www.faceunity.com
+
 金山：https://github.com/ksvc/KSYLive_iOS    
