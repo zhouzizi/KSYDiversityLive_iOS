@@ -2,7 +2,7 @@ IOS 贴纸功能 （KSYLive_IOS + faceunity）
 现在手机直播的发展可谓是如火如荼，玩法也是多种多样，新技术也是层出不群，现在我们就介绍一下基于金山推流SDK和faceunitySDK实现的贴纸功能（人脸识别+贴纸）哎，不错哦！
 
 ## 参考资料
-请移步（https://github.com/ksvc/KSYLive_iOS）
+请移步 https://github.com/ksvc/KSYLive_iOS
 
 ## 使用场景
 “你丑你先睡，我美我直播”，贴纸功能的目的就是叫你“就这样一直美下去,就这样萌萌哒“。
@@ -11,7 +11,7 @@ IOS 贴纸功能 （KSYLive_IOS + faceunity）
 好了言归正传，我们要实现带有可爱的贴纸功能的直播APP，“巧妇难为无米之炊”，首先我们要有原材料：就是能够实现相关功能的SDK（如果你牛，可以自己实现），但是计划赶不上变化，现在的世界就是快的吃慢的，当你加班加点的把这个功能开发完成，你突然发现世界不跟你玩了。所以我们还是集成现在市面上已经完美的轮子，让自己的车跑的更快
 1.创建一个自己的直播project
 
-2.集成金山云直播SDK，集成方法可参考（https://github.com/ksvc/KSYLive_iOS）
+2.集成金山云直播SDK，集成方法可参考 https://github.com/ksvc/KSYLive_iOS
 
 3.集成faceunity，集体方法可见KSYFaceUnityKitDemo中的方法
 
