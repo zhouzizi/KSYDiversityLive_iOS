@@ -12,11 +12,11 @@
 
 金山SDK流程结构图：
     
-![Diagram](https://github.com/ksvc/KSYLive_iOS/wiki/images/diagram.png)
+![Diagram](images/diagram.png)
   
 那我们要做的事情是啥呢，请看下图：
   
-![Diagram](https://github.com/ksvc/KSYLive_iOS/wiki/images/ksyReplace.png)
+![Diagram](images/ksyReplace.png)
 
 #### 开始集成
 
