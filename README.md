@@ -35,10 +35,6 @@
 * 画中画
 * 连麦
 
-## 大事记
-1. 2016年10月28日，支持[Faceunity动态贴纸方案](https://github.com/ksvc/KSYDiversityLive_iOS/tree/master/FaceUnitySDK)；
-1. 2016年10月28日，支持[涂图SDK美颜方案](https://github.com/ksvc/KSYDiversityLive_iOS/tree/master/TuSDK)；
-
 ## 开发合作
 任何企业、个人都可以参与，提供的SDK付费、免费都可以。不限于以下的合作场景：
 
@@ -49,7 +45,9 @@
 ## 大事记
 
 1. 2016.09.26，[连麦v1.5.0稳定版本](https://github.com/ksvc/KSYRTCLive_iOS)开放测试
-2. 2016.10.20，基于Replaykit(iOS10+)的游戏录屏体验版demo代码开放 
+1. 2016.10.20，基于Replaykit(iOS10+)的[游戏录屏体验版](https://github.com/ksvc/KSYDiversityLive_iOS/tree/master/KSYReplayKitDemo)demo代码开放 
+1. 2016年10月28日，支持[Faceunity动态贴纸方案](https://github.com/ksvc/KSYDiversityLive_iOS/tree/master/FaceUnitySDK)；
+1. 2016年10月28日，支持[涂图SDK美颜方案](https://github.com/ksvc/KSYDiversityLive_iOS/tree/master/TuSDK)；
 
 ## 反馈与建议
 - 主页：[金山云](http://v.ksyun.com)
