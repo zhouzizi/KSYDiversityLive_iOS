@@ -1,0 +1,708 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7BE4BD71AA89A93CEE6D8B8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA941B1C1F6EDDD8DDE5D9A6 /* libPods.a */; };
+		E38399261D7479EA00D12963 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E38399251D7479EA00D12963 /* main.m */; };
+		E38399291D7479EA00D12963 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E38399281D7479EA00D12963 /* AppDelegate.m */; };
+		E383992C1D7479EA00D12963 /* KSYTTDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E383992B1D7479EA00D12963 /* KSYTTDemoVC.m */; };
+		E383992F1D7479EA00D12963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E383992D1D7479EA00D12963 /* Main.storyboard */; };
+		E38399311D7479EA00D12963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38399301D7479EA00D12963 /* Assets.xcassets */; };
+		E38399341D7479EA00D12963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E38399321D7479EA00D12963 /* LaunchScreen.storyboard */; };
+		E383993F1D7479EA00D12963 /* KSYTTStreamerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E383993E1D7479EA00D12963 /* KSYTTStreamerTests.m */; };
+		E383994A1D7479EA00D12963 /* KSYTTStreamerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38399491D7479EA00D12963 /* KSYTTStreamerUITests.m */; };
+		E3C097A31D756BAE00B45C1D /* TuSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E3C097A21D756BAE00B45C1D /* TuSDK.bundle */; };
+		E3C097AA1D75816F00B45C1D /* KSYCameraSource.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C097A91D75816F00B45C1D /* KSYCameraSource.m */; };
+		E3C097AD1D7584E600B45C1D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C097AC1D7584E600B45C1D /* ViewController.m */; };
+		E3C097B81D75A35900B45C1D /* KSYTTBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C097B71D75A35900B45C1D /* KSYTTBaseVC.m */; };
+		E3C097BB1D75A5FC00B45C1D /* FilterConfigView.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C097BA1D75A5FC00B45C1D /* FilterConfigView.m */; };
+		E3C097C31D769C9000B45C1D /* UIView+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C097C21D769C9000B45C1D /* UIView+YYAdd.m */; };
+		E3C097C61D76A03300B45C1D /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = E3C097C51D76A03300B45C1D /* UIControl+YYAdd.m */; };
+		E3F4BB281D75568C0088A29E /* libyuv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F4BB241D75568C0088A29E /* libyuv.framework */; };
+		E3F4BB291D75568C0088A29E /* TuSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F4BB251D75568C0088A29E /* TuSDK.framework */; };
+		E3F4BB2A1D75568C0088A29E /* TuSDKFace.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F4BB261D75568C0088A29E /* TuSDKFace.framework */; };
+		E3F4BB2B1D75568C0088A29E /* TuSDKVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F4BB271D75568C0088A29E /* TuSDKVideo.framework */; };
+		E3F4BB301D7558BE0088A29E /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F4BB2F1D7558BE0088A29E /* libc++.1.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E383993B1D7479EA00D12963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E38399191D7479EA00D12963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E38399201D7479EA00D12963;
+			remoteInfo = KSYTTStreamer;
+		};
+		E38399461D7479EA00D12963 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E38399191D7479EA00D12963 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E38399201D7479EA00D12963;
+			remoteInfo = KSYTTStreamer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B2C1BE33025D85371D1C6AA /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		DA941B1C1F6EDDD8DDE5D9A6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1C06CFF9FED468B10EF277D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		E38399211D7479EA00D12963 /* KSYTTStreamer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSYTTStreamer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38399251D7479EA00D12963 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E38399271D7479EA00D12963 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E38399281D7479EA00D12963 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E383992A1D7479EA00D12963 /* KSYTTDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSYTTDemoVC.h; sourceTree = "<group>"; };
+		E383992B1D7479EA00D12963 /* KSYTTDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYTTDemoVC.m; sourceTree = "<group>"; };
+		E383992E1D7479EA00D12963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E38399301D7479EA00D12963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E38399331D7479EA00D12963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E38399351D7479EA00D12963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E383993A1D7479EA00D12963 /* KSYTTStreamerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSYTTStreamerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E383993E1D7479EA00D12963 /* KSYTTStreamerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYTTStreamerTests.m; sourceTree = "<group>"; };
+		E38399401D7479EA00D12963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E38399451D7479EA00D12963 /* KSYTTStreamerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSYTTStreamerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E38399491D7479EA00D12963 /* KSYTTStreamerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSYTTStreamerUITests.m; sourceTree = "<group>"; };
+		E383994B1D7479EA00D12963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3C097A21D756BAE00B45C1D /* TuSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TuSDK.bundle; sourceTree = "<group>"; };
+		E3C097A81D75816F00B45C1D /* KSYCameraSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYCameraSource.h; sourceTree = "<group>"; };
+		E3C097A91D75816F00B45C1D /* KSYCameraSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYCameraSource.m; sourceTree = "<group>"; };
+		E3C097AB1D7584E600B45C1D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3C097AC1D7584E600B45C1D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E3C097B61D75A35900B45C1D /* KSYTTBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSYTTBaseVC.h; sourceTree = "<group>"; };
+		E3C097B71D75A35900B45C1D /* KSYTTBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSYTTBaseVC.m; sourceTree = "<group>"; };
+		E3C097B91D75A5FC00B45C1D /* FilterConfigView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilterConfigView.h; sourceTree = "<group>"; };
+		E3C097BA1D75A5FC00B45C1D /* FilterConfigView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilterConfigView.m; sourceTree = "<group>"; };
+		E3C097C11D769C9000B45C1D /* UIView+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YYAdd.h"; sourceTree = "<group>"; };
+		E3C097C21D769C9000B45C1D /* UIView+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YYAdd.m"; sourceTree = "<group>"; };
+		E3C097C41D76A03300B45C1D /* UIControl+YYAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+YYAdd.h"; sourceTree = "<group>"; };
+		E3C097C51D76A03300B45C1D /* UIControl+YYAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+YYAdd.m"; sourceTree = "<group>"; };
+		E3F4BB241D75568C0088A29E /* libyuv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = libyuv.framework; sourceTree = "<group>"; };
+		E3F4BB251D75568C0088A29E /* TuSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TuSDK.framework; sourceTree = "<group>"; };
+		E3F4BB261D75568C0088A29E /* TuSDKFace.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TuSDKFace.framework; sourceTree = "<group>"; };
+		E3F4BB271D75568C0088A29E /* TuSDKVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TuSDKVideo.framework; sourceTree = "<group>"; };
+		E3F4BB2F1D7558BE0088A29E /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E383991E1D7479EA00D12963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F4BB301D7558BE0088A29E /* libc++.1.tbd in Frameworks */,
+				D7BE4BD71AA89A93CEE6D8B8 /* libPods.a in Frameworks */,
+				E3F4BB2A1D75568C0088A29E /* TuSDKFace.framework in Frameworks */,
+				E3F4BB291D75568C0088A29E /* TuSDK.framework in Frameworks */,
+				E3F4BB2B1D75568C0088A29E /* TuSDKVideo.framework in Frameworks */,
+				E3F4BB281D75568C0088A29E /* libyuv.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38399371D7479EA00D12963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38399421D7479EA00D12963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AEEB44CC5CBABD6796726FDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3F4BB2F1D7558BE0088A29E /* libc++.1.tbd */,
+				E3F4BB241D75568C0088A29E /* libyuv.framework */,
+				E3F4BB251D75568C0088A29E /* TuSDK.framework */,
+				E3F4BB261D75568C0088A29E /* TuSDKFace.framework */,
+				E3F4BB271D75568C0088A29E /* TuSDKVideo.framework */,
+				DA941B1C1F6EDDD8DDE5D9A6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C32629DB8C812DF7CAA4570F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1C06CFF9FED468B10EF277D /* Pods.debug.xcconfig */,
+				7B2C1BE33025D85371D1C6AA /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E38399181D7479EA00D12963 = {
+			isa = PBXGroup;
+			children = (
+				E38399231D7479EA00D12963 /* KSYTTStreamer */,
+				E383993D1D7479EA00D12963 /* KSYTTStreamerTests */,
+				E38399481D7479EA00D12963 /* KSYTTStreamerUITests */,
+				E38399221D7479EA00D12963 /* Products */,
+				C32629DB8C812DF7CAA4570F /* Pods */,
+				AEEB44CC5CBABD6796726FDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E38399221D7479EA00D12963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E38399211D7479EA00D12963 /* KSYTTStreamer.app */,
+				E383993A1D7479EA00D12963 /* KSYTTStreamerTests.xctest */,
+				E38399451D7479EA00D12963 /* KSYTTStreamerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E38399231D7479EA00D12963 /* KSYTTStreamer */ = {
+			isa = PBXGroup;
+			children = (
+				E38399271D7479EA00D12963 /* AppDelegate.h */,
+				E38399281D7479EA00D12963 /* AppDelegate.m */,
+				E3C097AB1D7584E600B45C1D /* ViewController.h */,
+				E3C097AC1D7584E600B45C1D /* ViewController.m */,
+				E3C097C01D769C4E00B45C1D /* category */,
+				E3C097BE1D76994100B45C1D /* KSYTT */,
+				E383992D1D7479EA00D12963 /* Main.storyboard */,
+				E38399301D7479EA00D12963 /* Assets.xcassets */,
+				E38399321D7479EA00D12963 /* LaunchScreen.storyboard */,
+				E38399351D7479EA00D12963 /* Info.plist */,
+				E38399241D7479EA00D12963 /* Supporting Files */,
+			);
+			path = KSYTTStreamer;
+			sourceTree = "<group>";
+		};
+		E38399241D7479EA00D12963 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3C097A21D756BAE00B45C1D /* TuSDK.bundle */,
+				E38399251D7479EA00D12963 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E383993D1D7479EA00D12963 /* KSYTTStreamerTests */ = {
+			isa = PBXGroup;
+			children = (
+				E383993E1D7479EA00D12963 /* KSYTTStreamerTests.m */,
+				E38399401D7479EA00D12963 /* Info.plist */,
+			);
+			path = KSYTTStreamerTests;
+			sourceTree = "<group>";
+		};
+		E38399481D7479EA00D12963 /* KSYTTStreamerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E38399491D7479EA00D12963 /* KSYTTStreamerUITests.m */,
+				E383994B1D7479EA00D12963 /* Info.plist */,
+			);
+			path = KSYTTStreamerUITests;
+			sourceTree = "<group>";
+		};
+		E3C097BE1D76994100B45C1D /* KSYTT */ = {
+			isa = PBXGroup;
+			children = (
+				E3C097A81D75816F00B45C1D /* KSYCameraSource.h */,
+				E3C097A91D75816F00B45C1D /* KSYCameraSource.m */,
+				E383992A1D7479EA00D12963 /* KSYTTDemoVC.h */,
+				E383992B1D7479EA00D12963 /* KSYTTDemoVC.m */,
+				E3C097B91D75A5FC00B45C1D /* FilterConfigView.h */,
+				E3C097BA1D75A5FC00B45C1D /* FilterConfigView.m */,
+				E3C097B61D75A35900B45C1D /* KSYTTBaseVC.h */,
+				E3C097B71D75A35900B45C1D /* KSYTTBaseVC.m */,
+			);
+			name = KSYTT;
+			sourceTree = "<group>";
+		};
+		E3C097C01D769C4E00B45C1D /* category */ = {
+			isa = PBXGroup;
+			children = (
+				E3C097C41D76A03300B45C1D /* UIControl+YYAdd.h */,
+				E3C097C51D76A03300B45C1D /* UIControl+YYAdd.m */,
+				E3C097C11D769C9000B45C1D /* UIView+YYAdd.h */,
+				E3C097C21D769C9000B45C1D /* UIView+YYAdd.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E38399201D7479EA00D12963 /* KSYTTStreamer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E383994E1D7479EA00D12963 /* Build configuration list for PBXNativeTarget "KSYTTStreamer" */;
+			buildPhases = (
+				5F287C783EB23A98F424E653 /* Check Pods Manifest.lock */,
+				E383991D1D7479EA00D12963 /* Sources */,
+				E383991E1D7479EA00D12963 /* Frameworks */,
+				E383991F1D7479EA00D12963 /* Resources */,
+				052011949060DC60CFD71174 /* Embed Pods Frameworks */,
+				1C2CCF7BACF726D5190D149C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSYTTStreamer;
+			productName = KSYTTStreamer;
+			productReference = E38399211D7479EA00D12963 /* KSYTTStreamer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E38399391D7479EA00D12963 /* KSYTTStreamerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38399511D7479EA00D12963 /* Build configuration list for PBXNativeTarget "KSYTTStreamerTests" */;
+			buildPhases = (
+				E38399361D7479EA00D12963 /* Sources */,
+				E38399371D7479EA00D12963 /* Frameworks */,
+				E38399381D7479EA00D12963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E383993C1D7479EA00D12963 /* PBXTargetDependency */,
+			);
+			name = KSYTTStreamerTests;
+			productName = KSYTTStreamerTests;
+			productReference = E383993A1D7479EA00D12963 /* KSYTTStreamerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E38399441D7479EA00D12963 /* KSYTTStreamerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E38399541D7479EA00D12963 /* Build configuration list for PBXNativeTarget "KSYTTStreamerUITests" */;
+			buildPhases = (
+				E38399411D7479EA00D12963 /* Sources */,
+				E38399421D7479EA00D12963 /* Frameworks */,
+				E38399431D7479EA00D12963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E38399471D7479EA00D12963 /* PBXTargetDependency */,
+			);
+			name = KSYTTStreamerUITests;
+			productName = KSYTTStreamerUITests;
+			productReference = E38399451D7479EA00D12963 /* KSYTTStreamerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E38399191D7479EA00D12963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "孙健";
+				TargetAttributes = {
+					E38399201D7479EA00D12963 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 36PUU93BJ2;
+					};
+					E38399391D7479EA00D12963 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E38399201D7479EA00D12963;
+					};
+					E38399441D7479EA00D12963 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = E38399201D7479EA00D12963;
+					};
+				};
+			};
+			buildConfigurationList = E383991C1D7479EA00D12963 /* Build configuration list for PBXProject "KSYTTStreamer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E38399181D7479EA00D12963;
+			productRefGroup = E38399221D7479EA00D12963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E38399201D7479EA00D12963 /* KSYTTStreamer */,
+				E38399391D7479EA00D12963 /* KSYTTStreamerTests */,
+				E38399441D7479EA00D12963 /* KSYTTStreamerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E383991F1D7479EA00D12963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38399341D7479EA00D12963 /* LaunchScreen.storyboard in Resources */,
+				E38399311D7479EA00D12963 /* Assets.xcassets in Resources */,
+				E383992F1D7479EA00D12963 /* Main.storyboard in Resources */,
+				E3C097A31D756BAE00B45C1D /* TuSDK.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38399381D7479EA00D12963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38399431D7479EA00D12963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		052011949060DC60CFD71174 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C2CCF7BACF726D5190D149C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F287C783EB23A98F424E653 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E383991D1D7479EA00D12963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E383992C1D7479EA00D12963 /* KSYTTDemoVC.m in Sources */,
+				E3C097B81D75A35900B45C1D /* KSYTTBaseVC.m in Sources */,
+				E3C097AA1D75816F00B45C1D /* KSYCameraSource.m in Sources */,
+				E3C097BB1D75A5FC00B45C1D /* FilterConfigView.m in Sources */,
+				E3C097C61D76A03300B45C1D /* UIControl+YYAdd.m in Sources */,
+				E3C097C31D769C9000B45C1D /* UIView+YYAdd.m in Sources */,
+				E38399291D7479EA00D12963 /* AppDelegate.m in Sources */,
+				E38399261D7479EA00D12963 /* main.m in Sources */,
+				E3C097AD1D7584E600B45C1D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38399361D7479EA00D12963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E383993F1D7479EA00D12963 /* KSYTTStreamerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E38399411D7479EA00D12963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E383994A1D7479EA00D12963 /* KSYTTStreamerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E383993C1D7479EA00D12963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E38399201D7479EA00D12963 /* KSYTTStreamer */;
+			targetProxy = E383993B1D7479EA00D12963 /* PBXContainerItemProxy */;
+		};
+		E38399471D7479EA00D12963 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E38399201D7479EA00D12963 /* KSYTTStreamer */;
+			targetProxy = E38399461D7479EA00D12963 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E383992D1D7479EA00D12963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E383992E1D7479EA00D12963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E38399321D7479EA00D12963 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E38399331D7479EA00D12963 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E383994C1D7479EA00D12963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E383994D1D7479EA00D12963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_OPTIMIZATION_PROFILE_FILE = "";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E383994F1D7479EA00D12963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C06CFF9FED468B10EF277D /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					../Framework,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Bugly\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/KSYGPULive_iOS\"",
+				);
+				INFOPLIST_FILE = KSYTTStreamer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.ios.KSYTTStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E38399501D7479EA00D12963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B2C1BE33025D85371D1C6AA /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					../Framework,
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/Bugly\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/KSYGPULive_iOS\"",
+				);
+				INFOPLIST_FILE = KSYTTStreamer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ksyun.ios.KSYTTStreamer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E38399521D7479EA00D12963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSYTTStreamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kingsoft.KSYTTStreamerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSYTTStreamer.app/KSYTTStreamer";
+			};
+			name = Debug;
+		};
+		E38399531D7479EA00D12963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KSYTTStreamerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kingsoft.KSYTTStreamerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KSYTTStreamer.app/KSYTTStreamer";
+			};
+			name = Release;
+		};
+		E38399551D7479EA00D12963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KSYTTStreamerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kingsoft.KSYTTStreamerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSYTTStreamer;
+			};
+			name = Debug;
+		};
+		E38399561D7479EA00D12963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KSYTTStreamerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kingsoft.KSYTTStreamerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = KSYTTStreamer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E383991C1D7479EA00D12963 /* Build configuration list for PBXProject "KSYTTStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E383994C1D7479EA00D12963 /* Debug */,
+				E383994D1D7479EA00D12963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E383994E1D7479EA00D12963 /* Build configuration list for PBXNativeTarget "KSYTTStreamer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E383994F1D7479EA00D12963 /* Debug */,
+				E38399501D7479EA00D12963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38399511D7479EA00D12963 /* Build configuration list for PBXNativeTarget "KSYTTStreamerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38399521D7479EA00D12963 /* Debug */,
+				E38399531D7479EA00D12963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E38399541D7479EA00D12963 /* Build configuration list for PBXNativeTarget "KSYTTStreamerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E38399551D7479EA00D12963 /* Debug */,
+				E38399561D7479EA00D12963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E38399191D7479EA00D12963 /* Project object */;
+}

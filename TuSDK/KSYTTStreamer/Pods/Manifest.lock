@@ -1,0 +1,26 @@
+PODS:
+  - Bugly (2.4.0)
+  - GPUImage (0.1.7)
+  - KSYGPULive_iOS (1.7.0):
+    - GPUImage
+
+DEPENDENCIES:
+  - Bugly
+  - KSYGPULive_iOS (from `https://github.com/ksvc/KSYLive_iOS.git`, tag `v1.7.0`)
+
+EXTERNAL SOURCES:
+  KSYGPULive_iOS:
+    :git: https://github.com/ksvc/KSYLive_iOS.git
+    :tag: v1.7.0
+
+CHECKOUT OPTIONS:
+  KSYGPULive_iOS:
+    :git: https://github.com/ksvc/KSYLive_iOS.git
+    :tag: v1.7.0
+
+SPEC CHECKSUMS:
+  Bugly: 3b56d8365c5687f74fd6fbb50c5b7ede3cdac96c
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
+  KSYGPULive_iOS: d90e537adebaec058887dd801808ecae33b513b2
+
+COCOAPODS: 0.39.0
