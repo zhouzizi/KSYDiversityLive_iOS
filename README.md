@@ -35,6 +35,10 @@
 * 画中画
 * 连麦
 
+## 大事记
+1. 2016年10月28日，支持[Faceunity动态贴纸方案](https://github.com/ksvc/KSYDiversityLive_iOS/tree/master/FaceUnitySDK)；
+1. 2016年10月28日，支持[涂图SDK美颜方案](https://github.com/ksvc/KSYDiversityLive_iOS/tree/master/TuSDK)；
+
 ## 开发合作
 任何企业、个人都可以参与，提供的SDK付费、免费都可以。不限于以下的合作场景：
 
