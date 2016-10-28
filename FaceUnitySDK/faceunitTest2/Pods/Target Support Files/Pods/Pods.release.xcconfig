@@ -1,8 +1,0 @@
-CLANG_MODULES_AUTOLINK = YES
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Bugly"
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Bugly" "${PODS_ROOT}/Headers/Public/GPUImage" "${PODS_ROOT}/Headers/Public/libksygpulive"
-LIBRARY_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/libksygpulive/prebuilt/libs" $(inherited) "${PODS_ROOT}/libksygpulive/prebuilt/libs" $(inherited) "${PODS_ROOT}/libksygpulive/prebuilt/libs" $(inherited) "${PODS_ROOT}/libksygpulive/prebuilt/libs" $(inherited) "${PODS_ROOT}/libksygpulive/prebuilt/libs" $(inherited) "${PODS_ROOT}/libksygpulive/prebuilt/libs"
-OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Bugly" -isystem "${PODS_ROOT}/Headers/Public/GPUImage" -isystem "${PODS_ROOT}/Headers/Public/libksygpulive"
-OTHER_LDFLAGS = $(inherited) -ObjC -l"GPUImage" -l"bz2" -l"c++" -l"iconv" -l"ksybase" -l"ksymediacodec" -l"ksymediacore_enc_lite" -l"ksyplayer" -l"ksystreamer" -l"ksyyuv" -l"libksygpulive" -l"stdc++.6" -l"z" -framework "AVFoundation" -framework "Bugly" -framework "CoreMedia" -framework "OpenGLES" -framework "QuartzCore" -framework "Security" -framework "SystemConfiguration" -framework "VideoToolbox"
-PODS_ROOT = ${SRCROOT}/Pods
