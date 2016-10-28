@@ -101,6 +101,8 @@ IOS 贴纸功能 （KSYLive_IOS + faceunity）
 |evil| kitty |
 |![fox](images/evil.PNG )| ![cat](images/kitty.png )|
 
-    
 
-    
+## 商务合作
+demo中的贴纸功能，若没有没有满足您的需求那么请联系：
+faceunity:http://www.faceunity.com/#page3
+金山：https://github.com/ksvc/KSYLive_iOS    
