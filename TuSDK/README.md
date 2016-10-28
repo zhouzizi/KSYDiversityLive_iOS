@@ -4,9 +4,9 @@
 #### 准备工作
 资源下载：
 
-金山SDK：(https://github.com/ksvc/KSYLive_iOS）
+金山SDK：https://github.com/ksvc/KSYLive_iOS
 
-途图SDK：(https://tusdk.com)
+途图SDK：https://tusdk.com
 
 #### 结构图
 
